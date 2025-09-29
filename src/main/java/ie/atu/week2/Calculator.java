@@ -4,8 +4,8 @@ public class Calculator {
     public Calculator() {
     }
 
-    public int subtract(int firstNumber, int secondNumber) {
-        return firstNumber - secondNumber;
+    public int multiply(int firstNumber, int secondNumber) {
+        return firstNumber * secondNumber;
     }
     // You will add subtract / multiply / divide later
 }
