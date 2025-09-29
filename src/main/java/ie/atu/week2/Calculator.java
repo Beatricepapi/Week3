@@ -12,4 +12,9 @@ public class Calculator {
         }
         return result;      // Step 3: give back the result
     }
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+    //
 }
