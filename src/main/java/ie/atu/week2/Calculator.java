@@ -16,4 +16,17 @@ public class Calculator {
     public int add(int firstNum, int secondNum) {
         return firstNum + secondNum;
     }                       // add two numbers
+
+    public int subtract(int firstNum, int secondNum) {
+        return firstNum - secondNum;
+    }                       // subtract two numbers
+
+    public int multiply(int firstNum, int secondNum) {
+        return firstNum * secondNum;
+                            // multiply two numbers
+    }
+
+    public int divide(int firstNum, int secondNum) {
+        return firstNum / secondNum;
+    }                       // divide two numbers
 }
