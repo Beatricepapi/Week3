@@ -13,7 +13,7 @@ public class MainApp {
         int secondNumber = scan.nextInt();
 
         Calculator calc = new Calculator();
-        int result = calc.multiply(firstNumber, secondNumber);
+        int result = calc.divide(firstNumber, secondNumber);
         System.out.println("The result is: " + result);
     }
 }
