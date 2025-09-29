@@ -15,5 +15,17 @@ public class MainApp {
         Calculator calc = new Calculator();
         int result = calc.power(firstNumber, secondNumber);
         System.out.println("The result is: " + result);
+
+        int result1 = calc.add(firstNumber, secondNumber);
+        System.out.println("The result is: " + result1);
+
+        int result2 = calc.subtract(firstNumber, secondNumber);
+        System.out.println("The result is: " + result2);
+
+        int result3 = calc.multiply(firstNumber, secondNumber);
+        System.out.println("The result is: " + result3);
+
+        int result4 = calc.divide(firstNumber, secondNumber);
+        System.out.println("The result is: " + result4);
     }
 }
