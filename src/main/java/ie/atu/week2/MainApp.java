@@ -13,7 +13,7 @@ public class MainApp {
         int secondNumber = scan.nextInt();
 
         Calculator calc = new Calculator();
-        int result = calc.add(firstNumber, secondNumber);
+        int result = calc.subtract(firstNumber, secondNumber);
         System.out.println("The result is: " + result);
     }
 }
