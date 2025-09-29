@@ -13,8 +13,7 @@ public class Calculator {
         return result;      // Step 3: give back the result
     }
 
-    public int add(int a, int b) {
-        return a + b;
-    }
-    //
+    public int add(int firstNum, int secondNum) {
+        return firstNum + secondNum;
+    }                       // add two numbers
 }
